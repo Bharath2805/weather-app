@@ -1,0 +1,75 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+
+  
+body {
+    background-image: url(https://i.pinimg.com/originals/b8/4d/71/b84d7101bdeafc175cebb6a282cb6775.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+}
+  
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:blue-sky-with-shiny;
+  }
+  
+  /* designing the weather app container */
+  .container {
+    width: 600px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+    text-decoration-color: rgb(201, 10, 10);
+  }
+  
+  /* designing the search area */
+  .searchData {
+    border: 1px solid black;
+  }
+  
+  .searchData input {
+    border: transparent;
+    padding: 5px;
+  }
+  
+  .searchData button {
+    border: transparent;
+    padding: 5px 15px;
+    cursor: pointer;
+  }
+  
+  /* designing the city weather data */
+  .cityWeatherData {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .details {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
